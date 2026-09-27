@@ -75,6 +75,10 @@ export url='https://gh.jwsc.eu.org/master' \
 ### :satellite: 路由器设备安装
 
 **使用 `curl` 安装：**
+openwrt首先安装curl
+apk update
+apk add curl
+
 > GitHub 源（推荐海外环境或具备代理环境使用）
 ```sh
 export url='https://raw.githubusercontent.com/juewuy/ShellCrash/master' \
