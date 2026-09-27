@@ -77,7 +77,6 @@ export url='https://gh.jwsc.eu.org/master' \
 **使用 `curl` 安装：**
 
 > openwrt首先安装curl
-> ```sh
 apk update && apk add curl
 
 
