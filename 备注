@@ -1,0 +1,24 @@
+### :satellite: 路由器设备安装
+
+**使用 `curl` 安装：**
+
+> openwrt首先安装curl
+```sh
+apk update && apk add curl
+```
+
+> GitHub 源（推荐海外环境或具备代理环境使用）
+```sh
+export url='https://raw.githubusercontent.com/juewuy/ShellCrash/master' \
+  > sh -c "$(curl -kfsSl $url/install.sh)" \
+  && . /etc/profile &> /dev/null
+```
+
+> 注
+```sh
+2--1选择Redir模式，设置路由劫持范围：选择局域网，Linux主机本机可选本机，dns选择mix模式
+4--1确保开机启动
+9--2更新 Mihomo 模式节点订阅选6--2更新节点
+SingBoxR内核模式，节点订阅选 6--3 更新节点
+9--4--1安装面板
+```
